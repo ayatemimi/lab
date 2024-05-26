@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.Analysis lab.com</title>
+    <link rel="stylesheet" href="style.css" />
+  <style>
+    button {
+   
+  
+   background-color: rgb(62, 202, 248);
+ color: white;
+ padding: 20px 20px;
+ border-radius: 30px;
+ cursor: pointer;
+ font-size: 30px;
+ position: absolute;
+ left: 150px; /* Left alignment */
+ top: 80%; 
+
+
+ }
+ .navbar {
+  position:absolute; /* Fixes the navbar to the top */
+  top: 7%; /* Positions it at the top of the viewport */
+  right: 0; /* Positions it at the right of the viewport */
+  /* Adjust width and height as needed */
+  width: 200px; /* Example width */
+  height: 50px; /* Example height */
+  
+  display: flex; /* Enables horizontal alignment of elements */
+  justify-content: flex-end; /* Aligns elements to the right */
+  align-items: center; /* Aligns elements vertically in the center */
+  padding: 40px; /* Adjust padding for spacing */
+}
+
+.navbar a {
+  color: rgb(14, 13, 13); /* Text color */
+  text-decoration: none; /* Removes underline */
+  margin-right: 50px; /* Spacing between links */
+  font-size: 30px; /* Font size */
+}
+
+.navbar a:hover {
+  color: #555050; /* Hover color */
+}
+  </style>
+  
+  
+  
+  </head>
+  <body>
+    
+    <img src="1.jpeg" class="bg-image" />
+    <div class="navbar">
+      <a href='index.html'>Home</a>
+      <a href='/home/aya/Desktop/aya/Tablepage.html'>Statistics</a>
+      <a href='contact.html'>Contact</a>
+      <a href='aya.html'>About</a>
+    </div>
+    <div class="group group-2 ">
+      <h1>information about the sample</h1>
+      <form id="user-form">
+        <div class="form-group">
+          <label for="nature">Nature:</label>
+          <input type="text" name="nature" id="nature" required />
+        </div>
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="Eata">State:</label>
+          <input type="text" name="Eata" id="Eatam" required />
+        </div>
+        <div class="group-form">
+          <button type="submit" class="btn"onclick="window.location.href='part2.html'">Next</button>
+          
+        </div>
+      </form>
+    </div>
+    <link rel="icon" type="image/x-icon" href="1184122.png">
+  </body>
+</html>
